@@ -20,3 +20,6 @@ Abracadabra
 должна вместо рамки выводить сообщение.
 Ошибка
 
+
+[lineIfTheFrame.java](https://github.com/nasimlat/java_sber/blob/main/lineintheframe/src/lineIfTheFrame.java "Задание 1")
+
