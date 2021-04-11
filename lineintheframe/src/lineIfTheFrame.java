@@ -10,7 +10,7 @@ public class lineIfTheFrame {
         if ((j == 0) || (j == width - 1))
             System.out.print("*");
         else
-            System.out.print(" "); 
+            System.out.print(" ");
     }
 
     public static void printString(int j, int width, String line) {
