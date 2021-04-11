@@ -28,22 +28,22 @@ public class lineIfTheFrame {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int lenght = input.nextInt(); //6
+        int len = input.nextInt(); //6
         int width = input.nextInt(); //20
         String line = input.next();
         int medium;
 
-        if (lenght % 2 == 0)
-            medium = lenght / 2 - 1;
+        if (len % 2 == 0)
+            medium = len / 2 - 1;
         else
-            medium = lenght / 2;
+            medium = len / 2;
 
-        if ((line.length() > width - 2) || lenght < 3)
+        if ((line.length() > width - 2) || len < 3)
             printErr();
         else {
-            for (int i = 0; i < lenght; i++) {
+            for (int i = 0; i < len; i++) {
                 for (int j = 0; j < width; j++) {
-                    if ((i == 0) || (i == lenght - 1))
+                    if ((i == 0) || (i == len - 1))
                         System.out.print('*');
                     else if (i == medium)
                         printString(j, width, line);
